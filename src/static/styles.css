@@ -108,6 +108,36 @@ button:hover {
   background-color: #3949ab;
 }
 
+.activity-card .participants {
+  margin-top: 14px;
+  padding: 14px;
+  background-color: #ffffff;
+  border: 1px solid #e0e0e0;
+  border-radius: 6px;
+}
+
+.activity-card .participants strong {
+  display: block;
+  margin-bottom: 8px;
+  color: #1a237e;
+}
+
+.activity-card .participants ul {
+  list-style: disc inside;
+  margin-left: 0;
+  color: #444;
+}
+
+.activity-card .participants li {
+  margin-bottom: 4px;
+}
+
+.activity-card .participants.no-participants p {
+  margin: 0;
+  color: #777;
+  font-style: italic;
+}
+
 .message {
   margin-top: 20px;
   padding: 10px;
